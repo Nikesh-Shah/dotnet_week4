@@ -9,7 +9,8 @@
             Console.WriteLine(player1.level);
             Console.WriteLine(player1.health);
 
-            Console.WriteLine("--------------");
+
+
             Player player2 = new Player("Madan", 3, "Bad");
             Console.WriteLine(player2.playerName);
             Console.WriteLine(player2.level);
