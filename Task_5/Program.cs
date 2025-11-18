@@ -17,6 +17,19 @@
             }
 
             Console.WriteLine($"You entered: {day.ToUpper()}");
+
+            Book book1 = new Book("Atomic Habits","James Clear",1200);
+            Book book2 = book1 with { title = "Rich Dad, Poor Dad", price = 1000 };
+            Console.WriteLine($"First book: Title:{book1.title}, Auhor:{book1.author}, Price: {book1.price} ");
+
+            var (title, author, price) = book2;
+
+            Console.WriteLine("\nDeconstructed record: ");
+            Console.WriteLine($"title:{title}");
+            Console.WriteLine($"author:{title}");
+            Console.WriteLine($"price:{price}");
+
+
         }
     }
 }
