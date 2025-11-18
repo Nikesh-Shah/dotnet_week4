@@ -8,7 +8,7 @@ namespace Task_1
 {
     public class Student
     {
-        public static string schoolName = "Ithari International College";
+        public static string SchoolName = "Ithari International College";
         public string Name;
         public int Age;
         public string Grade;
